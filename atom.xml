@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  
+  <title><![CDATA[研究僧]]></title>
+  <subtitle><![CDATA[今晚打老虎]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://hr6r.com//"/>
+  <updated>2015-06-11T04:27:33.000Z</updated>
+  <id>http://hr6r.com//</id>
+  
+  <author>
+    <name><![CDATA[hr6r]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://hr6r.com/2015/06/04/hello-world/"/>
+    <id>http://hr6r.com/2015/06/04/hello-world/</id>
+    <published>2015-06-04T08:31:45.000Z</published>
+    <updated>2015-06-11T04:27:33.000Z</updated>
+    <content type="html"><![CDATA[<p>Hello Everybody!</p>
+<p>我的<a href="https://hr6r.blogspot.com" target="_blank" rel="external">Blog</a> 一直托管在<a href="https://blogger.com" target="_blank" rel="external">blogger.com</a>, 有很多年了. 但是因为 GFW 的原因, 国内长期无法访问, 导致我写作欲望降低, <a href="http://hr6r.com">hr6r.com</a> 的域名也几近荒废, 非常不应该.</p>
+<p>所以呢, 在今天这个特殊的日子里, 我花了点时间, 整个迁移过来, 希望可以重新开启阅读和写作.</p>
+<p>新 Blog 的程序选择了 <a href="http://hexo.io" target="_blank" rel="external">hexo</a>, 基于 node.js, 比较熟悉; 有<a href="https://github.com/hexojs/hexo-migrator-blogger" target="_blank" rel="external"> 从 blogger 迁移过来的 plugin</a>, 虽然已经 <strong> 失效 </strong> 了, 但是我花了点时间修复了一下, 现在可以用了<a href="https://github.com/hr6r/hexo-migrator-blogger" target="_blank" rel="external">(我的 fork)</a>; theme 是<a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="external">NexT</a>, 这样的风格我很喜欢; 托管当然是在<a href="https://github.com" target="_blank" rel="external">github</a> 了, 逼格妥妥的.</p>
+<p>最后, 一如既往的, <strong>加油!</strong></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Hello Everybody!</p>
+<p>我的<a href="https://hr6r.blogspot.com" target="_blank" rel="external">Blog</a> 一直托管在<a href="https://blogger.com" ]]>
+    </summary>
+    
+      <category term="blogger" scheme="http://hr6r.com/tags/blogger/"/>
+    
+      <category term="hexo" scheme="http://hr6r.com/tags/hexo/"/>
+    
+      <category term="migrator" scheme="http://hr6r.com/tags/migrator/"/>
+    
+      <category term="node.js" scheme="http://hr6r.com/tags/node-js/"/>
+    
+  </entry>
+  
+</feed>
