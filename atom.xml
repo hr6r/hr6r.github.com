@@ -5,7 +5,7 @@
   <subtitle><![CDATA[今晚打老虎]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://hr6r.com//"/>
-  <updated>2015-06-11T04:27:33.000Z</updated>
+  <updated>2015-06-23T14:25:24.000Z</updated>
   <id>http://hr6r.com//</id>
   
   <author>
@@ -14,6 +14,44 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[替换 Kindle 4/5 的中文字体]]></title>
+    <link href="http://hr6r.com/2015/06/05/%E6%9B%BF%E6%8D%A2-kindle-4-5-%E7%9A%84%E4%B8%AD%E6%96%87%E5%AD%97%E4%BD%93/"/>
+    <id>http://hr6r.com/2015/06/05/替换-kindle-4-5-的中文字体/</id>
+    <published>2015-06-04T16:04:17.000Z</published>
+    <updated>2015-06-23T14:25:24.000Z</updated>
+    <content type="html"><![CDATA[<p>今天把 kindle 翻出来看了一会, 实在受不了了, 决定还是要折腾一下中文字体.<br>网上有很多相关的资料, 但是看着比较乱, 而且很多的资源下载链接也都已经失效了.<br>于是我就再简单的整理了一下, 主要就是以下几步.</p>
+<h1 id="越狱">越狱</h1><ol>
+<li>进入 <a href="http://www.mobileread.com/forums/showthread.php?t=191158" target="_blank" rel="external"> 大神们在 mobileread 的原帖</a>, 下载最新的越狱包, 现在的版本是 kindle-k4-jailbreak-1.8.N.zip.</li>
+<li>越狱步骤就不写了, 很简单. 看里面的 ReadMe, 最详细, 也不会错.</li>
+</ol>
+<h1 id="启用 WiFi 连接">启用 WiFi 连接 </h1><p> 启用 WiFi 后, 我们就可以直接无线 ssh kindle, 不需要插数据线了, 非常方便.</p>
+<ol>
+<li>再次进入 <a href="http://www.mobileread.com/forums/showthread.php?t=88004" target="_blank" rel="external"> 大神们的贴</a>, 下载    kindle-usbnetwork-0.55.N-k4.rar.</li>
+<li>使用步骤也请看里面的 ReadMe, 我这里写了容易过时.</li>
+</ol>
+<h1 id="替换字体">替换字体 </h1><p> 这是最纠结的一步, 因为字体的选择实在是因人而异.<br>我个人是怎么都看不惯宋体, 我喜欢的是圆体类的字体, 但是在 kindle 中又只能使用 ttf 字体, Mac 中的中文字体都无法直接使用. 所以没办法, 最后还是只能启用经典的微软雅黑.<br>雅黑现在的版本到了 6.10(标准) 和 6.11(粗体), 非常难找, <a href="https://www.microsoft.com/typography/fonts/family.aspx?FID=350" target="_blank" rel="external">MS 的主页 </a> 上也不提供下载了. 我费尽九牛二虎之力才找到了这最后的 ttf 版本 (6.10/6.11 已经是 ttc 了), 分别是: <a href="http://pan.baidu.com/s/1jGBxmfk" target="_blank" rel="external"> 标准 msyh.ttf 6.02 和 粗体 msyhbd.ttf 6.02</a>.</p>
+<h1 id="其他">其他 </h1><p> 最后, 就是一些常用的命令和目录:</p>
+<ol>
+<li>查看 kindle 的 ip: 在 setting 页面, 同时按下<code>keyboard</code> 和<code>page next</code>.</li>
+<li>ssh 进入后, 记得<code>mntroot rw</code> 设为可写; 登出前, 也不要忘记<code>mntroot ro</code> 设置回只读.</li>
+<li>字体目录是<code>/usr/java/lib/fonts/</code>. 可以将字体 scp 至此目录:<code>scp {YOUR_FONT} root@{KINDLE_IP}:/usr/java/lib/fonts/</code>.</li>
+<li>字体配置文件是<code>/usr/java/lib/font.properties</code>. 涉及中文字体的的配置是<code>hans.*</code> 开头的四行.</li>
+<li>顺便修改一下页面边距, 配置文件是:<code>/mnt/us/system/com.amazon.ebook.booklet.reader/reader.pref</code>, <code>HORIZONTAL_MARGIN=40</code> 中的<code>40</code> 就是边距了, 一般改成<code>20</code> 就差不多了.</li>
+<li>书籍的目录是<code>/mnt/us/documents/</code>, 同样可以 scp 进来, 非常方便.</li>
+<li>在 ssh 的过程中, 注意不要让 kindle 进入屏保.</li>
+<li>然而 <a href="http://ycool.com/post/yerzj9r" target="_blank" rel="external"> 这个贴 </a> 里有比较详细的中文步骤说明, 懒得看英文的可以看这个, LOL.</li>
+</ol>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>今天把 kindle 翻出来看了一会, 实在受不了了, 决定还是要折腾一下中文字体.<br>网上有很多相关的资料, 但是看着比较乱, 而且很多的资源下载链接也都已经失效了.<br>于是我就再简单的整理了一下, 主要就是以下几步.</p>
+<h1 id="越狱">越狱</h1]]>
+    </summary>
+    
+      <category term="kindle" scheme="http://hr6r.com/tags/kindle/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Hello World]]></title>
