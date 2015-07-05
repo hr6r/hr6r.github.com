@@ -5,7 +5,7 @@
   <subtitle><![CDATA[今晚打老虎]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://hr6r.com//"/>
-  <updated>2015-06-26T03:40:15.000Z</updated>
+  <updated>2015-07-05T20:23:48.000Z</updated>
   <id>http://hr6r.com//</id>
   
   <author>
@@ -14,6 +14,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[弹股]]></title>
+    <link href="http://hr6r.com/2015/07/06/%E5%BC%B9%E8%82%A1/"/>
+    <id>http://hr6r.com/2015/07/06/弹股/</id>
+    <published>2015-07-05T20:23:48.000Z</published>
+    <updated>2015-07-05T20:23:48.000Z</updated>
+    <content type="html"><![CDATA[<p><a href="http://tangu.nextbang.com" target="_blank" rel="external"> 弹股 </a> 就这样火了. 一切就像做梦一样.</p>
+<p> 这两天我的小宇宙已经燃烧到了极限:</p>
+<ul>
+<li> 提交了近 20 次代码;</li>
+<li> 新增了一台服务器;</li>
+<li> 优化了移动端的体验;</li>
+<li> 注册了新域名 (在备案中);</li>
+<li> 分离了服务端;</li>
+<li> 完成并提交了 iOS App(等待审核中);</li>
+<li> 给各个流量大户充值;</li>
+<li> 增加了 cache 服务;</li>
+<li> 为了一个无耻的盗链网站筋疲力尽;</li>
+<li> 而这两天加起来可能只睡了 8 个小时;</li>
+</ul>
+<p> 感谢所有帮助和关心这个项目的朋友, 谢谢你们.<br> 谢谢老婆, 没有你的支持, 我都不知道怎么坚持到今天.</p>
+<p> 加油!</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><a href="http://tangu.nextbang.com" target="_blank" rel="external"> 弹股 </a> 就这样火了. 一切就像做梦一样.</p>
+<p> 这两天我的小宇宙已经燃烧到了极限:</p>
+<ul>
+<li> 提交了近]]>
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Hello World]]></title>
